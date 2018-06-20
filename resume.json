@@ -1,0 +1,158 @@
+{
+  "basics": {
+    "name": "Francisco Ochoa",
+    "label": "Developer",
+    "picture": "",
+    "email": "fco.ochoas@gmail.com",
+    "phone": "(+52) 6441507967",
+    "website": "https://fochoa.info",
+    "summary": "Passionate about electronics and technologies applied in software development. One of my goals is develop myself in a proffesional way using technology, learning and applying my knowledge to improve the success of the company.",
+    "location": {
+      "address": "Madero 302",
+      "postalCode": "85210",
+      "city": "Obregon",
+      "countryCode": "MX",
+      "region": "Sonora"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "chico.fos",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "chicofos",
+        "url": "https://github.com/chicofos"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/francisco-ochoa-73421775/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Tiempo Development",
+      "position": "Software Engineer III",
+      "website": "http://tiempodevelopment.com/",
+      "startDate": "2016-11-01",
+      "summary": "Maintenance and development of different applications used for a contracting company.",
+      "highlights": [
+        "Maintenance and Support web project in ASP.NET MVC 4",
+        "Agile Software Development",
+        "Improvements in front-end of application to be responsive and have a mobile experience using modern technologies"
+      ]
+    },
+    {
+      "company": "Emcor",
+      "position": "Developer",
+      "website": "http://emcor.mx/",
+      "startDate": "2015-06-01",
+      "endDate": "2016-10-01",
+      "summary": "Maintenance and development of different applications used for logistics management",
+      "highlights": [
+        "Maintenance and Development web project in ASP.NET MVC 4",
+        "Maintenance and Development desktop applications using Telerik",
+        "Maintenance and Design of database SQL Server 2008+",
+        "Agile Software Development"
+      ]
+    },
+    {
+      "company": "Softtek",
+      "position": "Developer",
+      "website": "www.softtek.com/",
+      "startDate": "2014-03-01",
+      "endDate": "2014-11-01",
+      "summary": "Support and development of web application used for movies management",
+      "highlights": [
+        "Maintenance and Support web project in ASP.NET",
+        "Maintenance and Support database SQL Server 2008+",
+        "Agile Software Development",
+        "Migrate a part of web project ASP.NET to ASP.NET MVC 4"
+      ]
+    },
+    {
+      "company": "SourceHov",
+      "position": "Developer",
+      "website": "https://sourcehov.com/",
+      "startDate": "2012-06-01",
+      "endDate": "2013-08-01",
+      "summary": "Maintenance and development of different applications used for image processing.",
+      "highlights": [
+        "Maintenance of applications in C#",
+        "Development and Support of report applications and web services",
+        "Configuration of applications using SQL",
+        "Support web projects in ASP.NET"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Government School",
+      "position": "Teacher",
+      "website": "",
+      "startDate": "2012-01-01",
+      "endDate": "2012-06-01",
+      "summary": "Support and capacitation of teachers in different primary schools in how implement basic technology in their class room to improve the knowledge.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnologico de Sonora",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2008-08-01",
+      "endDate": "2012-08-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ASP.NET MVC",
+        "C#",
+        "React",
+        "Node.js",
+        "AWS",
+        "Docker",
+        "Serverless",
+        "Algorithms",
+        "Javascript",
+        "CSS",
+        "SQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Electronic",
+      "keywords": [
+        "Arduino",
+        "Raspberry Pi",
+        "Computers"
+      ]
+    }
+  ],
+  "references": []
+}

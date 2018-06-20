@@ -1,28 +1,19 @@
+var express = require('express');
+var app = express();
+var path = require("path");
 
-const Hapi = require('hapi');
-const server = Hapi.server(process.env.PORT, '0.0.0.0');
+const port = process.env.PORT || 3000;
 
-const init = async () => {
+app.use(express.static('public'))
 
-    await server.register(require('inert'));
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname+'/public/index.html'));
+});
 
-    server.route([{
-        method: 'GET',
-        path: '/',
-        handler: (request, h) => {
-            return h.file('./index.html');
-        }
-    },
-    {
-        method: 'GET',
-        path: '/photo.png',
-        handler: {
-            file: 'photo.png'
-        }
-    }]);
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname+'/public/404.html'));
+});
 
-    await server.start();
-    console.log(`Server running at: ${server.info.uri}`);
-};
-
-init();
+app.listen(port, () => {
+    console.log(`App running on ${port}`);
+})
